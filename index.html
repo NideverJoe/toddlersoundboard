@@ -1,0 +1,113 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+<style>
+    img {
+        height: 65% !important
+    }
+</style>
+    <div class="row card-group">
+        <div id="cow" class="card col-sm">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/37/Cow_closeup_03.svg/2048px-Cow_closeup_03.svg.png" class="card-img-top" alt="...">
+        <div class="card-body">
+            <h2 class="card-title text-center">COW</h2>
+        </div>
+        </div>
+        <div id="dog" class="card col-sm">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/1/1c/Smiling_Dog_Face.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+            <h2 class="card-title text-center">DOG</h2>
+        </div>
+        </div>
+        <div id="cat" class="card col-sm">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/CatVibrissaeFullFace.JPG/220px-CatVibrissaeFullFace.JPG" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h2 class="card-title text-center">CAT</h2>
+            </div>
+            </div>
+            <div id="lion" class="card col-sm">
+            <img src="https://www.krugerpark.co.za/images/black-maned-lion-shem-compion-786x500.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h2 class="card-title text-center">LION</h2>
+            </div>
+            </div>
+    </div>
+
+    <div class="row card-group">
+        <div id="cricket" class="card col-sm">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/4/4a/Cricket.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+            <h2 class="card-title text-center">CRICKET</h2>
+        </div>
+        </div>
+        <div id="duck" class="card col-sm">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/2/24/Male_mallard_duck_2.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+            <h2 class="card-title text-center">DUCK</h2>
+        </div>
+        </div>
+        <div id="elephant" class="card col-sm">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/b/bc/Elephant.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+            <h2 class="card-title text-center">ELEPHANT</h2>
+        </div>
+        </div>
+        <div id="horse" class="card col-sm">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/f/fa/Zaniskari_Horse_in_Ladakh.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+            <h2 class="card-title text-center">HORSE</h2>
+        </div>
+        </div>
+    </div>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script>
+        var cowsound =new Audio('https://upload.wikimedia.org/wikipedia/commons/4/48/Mudchute_cow_1.ogg');
+        var dogsound =new Audio('https://upload.wikimedia.org/wikipedia/commons/a/a2/Barking_of_a_dog.ogg');
+        var catsound =new Audio('https://upload.wikimedia.org/wikipedia/commons/6/62/Meow.ogg');
+        var lionsound =new Audio('https://upload.wikimedia.org/wikipedia/commons/7/7d/Lion_raring-sound1TamilNadu178.ogg');
+
+        var cricketsound =new Audio('https://upload.wikimedia.org/wikipedia/commons/0/0d/Field_cricket_unedited.ogg');
+        var ducksound =new Audio('https://upload.wikimedia.org/wikipedia/commons/f/fa/Anas_platyrhynchos_-_Mallard_-_XC62258.ogg');
+        var elephantsound =new Audio('https://upload.wikimedia.org/wikipedia/commons/4/40/Elephant_voice_-_trumpeting.ogg');
+        var horsesound =new Audio('https://upload.wikimedia.org/wikipedia/commons/d/db/Wiehern.ogg');
+        $('#cow').click(function(){
+            cowsound.play();
+        });
+        $('#dog').click(function(){
+            dogsound.play();
+        });
+        $('#cat').click(function(){
+            catsound.play();
+        });
+        $('#lion').click(function(){
+            lionsound.play();
+        });
+
+        $('#cricket').click(function(){
+            cricketsound.play();
+        });
+        $('#duck').click(function(){
+            ducksound.play();
+        });
+        $('#elephant').click(function(){
+            elephantsound.play();
+        });
+        $('#horse').click(function(){
+            horsesound.play();
+        });
+
+    </script>  
+
+</body>
+</html>
